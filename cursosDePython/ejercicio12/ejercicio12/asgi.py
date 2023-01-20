@@ -1,5 +1,5 @@
 """
-ASGI config for ejercicio12 project.
+ASGI config for tema12 project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ejercicio12.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tema12.settings')
 
 application = get_asgi_application()

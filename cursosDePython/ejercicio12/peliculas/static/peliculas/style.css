@@ -1,0 +1,21 @@
+img {
+    height: 300px;
+}
+
+img.detalle {
+    height: 250px;
+}
+
+table {
+    text-align: center;
+}
+
+td{
+    padding: 5px;
+}
+
+main {
+    width: 95%;
+    text-align: justify;
+    margin: auto;
+}
