@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#btn1{
+    position: absolute;
+    background-color: #0F0;
+    color: #FFF;
+    height: 5rem;
+    font-size: 2rem;
+    width: 20rem;
+    z-index: 1;
+}
+#btn2{
+    background-color: #F00;
+    height: 5rem;
+    font-size: 2rem;
+    width: 20rem;
+    z-index: 2;
+}
+#btn2:hover{
+    opacity: 0;
+}
